@@ -1,0 +1,16 @@
+#navDrop, #navList, #navList > .subnavList,
+#navList > #Drop1, #navList > #Drop2
+ {
+    display: none;
+}
+
+#navList{
+    background-color: green;
+}
+
+#navDrop:checked ~ #navList,
+#Drop1:checked ~ #sub1,
+#Drop2:checked ~ #sub2 {
+    display: flex;
+    flex-direction: column;
+}

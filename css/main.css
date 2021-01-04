@@ -1,0 +1,182 @@
+/* Global Styling */
+html {
+    line-height: 1.5;
+    height:100%;
+}
+
+body {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Container for Entire Page, uses Grid */
+#container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 48px 1fr auto;
+}
+
+
+
+/* Top of Page */
+header {
+    grid-column-start: span 5;
+    background-color: purple;
+    text-align: center;
+}
+
+header h1 {
+    padding:0;
+    margin:0;
+}
+
+
+
+/* Dropdown Navigation Styling
+   DO NOT TOUCH PLEASE AND THANKS
+   Adding sticky nav bar was cool, good idea
+   Even though it doesn't completely work
+   DO NOT TOUCH ME AGAIN PLEASE AND THANKS
+   Not sure it stocks scrolling after a couple hundred pixels */
+
+nav {
+    grid-column: span 5;
+    grid-row-start: 2;
+    background-color: blue;
+    line-height: 1;
+    position: sticky;
+    top:0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#navList {
+    position: absolute;
+    width: 100%;
+    top:48px;
+    left:0;
+    background-color: green;
+}
+
+#navList label {
+    padding: 1em;
+    border: 1px black solid;
+}
+
+.subnavList a {
+    background-color: purple;
+    padding: .5em 2em;
+    border: 1px black solid;
+}
+
+#navList span {
+    padding: .5em 1em;
+}
+
+
+#navDrop, #navList, #navList > .subnavList,
+#navList > #drop1, #navList > #drop2,
+#searchBar, #searchSubmit {
+    display: none;
+}
+
+
+#navDrop:checked ~ #navList,
+#drop1:checked ~ #sub1,
+#drop2:checked ~ #sub2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#searchButton {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#searchBar {
+    height: auto;
+    width:auto;
+    padding-left: 1em;
+}
+
+#searchBar input {
+    padding-left: 1em;
+    border:none;
+}
+
+#searchSubmit:checked ~ #searchBar {
+    display:flex;
+}
+
+/* Content */
+
+main {
+    grid-column: span 5;
+    grid-row-start: 3;
+    padding: 1em;
+    background-color: orange;
+
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+
+
+/* Content Card Styling */
+.card {
+    grid-column: span 2;
+    border: 1px solid black;
+    border-radius: 24px;
+    background-color: pink;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardImage {
+    display: flex;
+    justify-content: center;
+}
+
+.cardText {
+    text-align: justify;
+    background-color: grey;
+    margin-top: 1em;
+}
+
+.cardText p {
+    padding: 0;
+    margin:0;
+}
+
+
+/* Bottom of Page */
+
+footer {
+    grid-row-start: 4;
+    grid-column-start: span 5;
+    background-color: cornflowerblue;
+}
+
+
+/***** Media Queries *****/
+
+/* Mobile */
+
+
+/* Tablet */
+
+
+/* Desktop */
