@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6ec1ba5-a69f-423b-b4e6-6501113be61b" name="Default Changelist" comment="Fixed Sticky Nav&#10;Improved responsive design &#10;-switched from grid to flexbox&#10;Should look ok in any res without media queries&#10;To be determined after adding content.&#10;&#10;TODO:&#10;Add about page&#10;Add content pages&#10;Fix color scheme&#10;Add search function (!Requires Content!)">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/helpButton.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homeButton.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homeButton.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="b6ec1ba5-a69f-423b-b4e6-6501113be61b" name="Default Changelist" comment="Fixed Sticky Nav&#10;Improved responsive design &#10;-switched from grid to flexbox&#10;Should look ok in any res without media queries&#10;To be determined after adding content.&#10;&#10;TODO:&#10;Add about page&#10;Add content pages&#10;Fix color scheme&#10;Add search function (!Requires Content!)&#10;Probably some other stuff i don't remember too" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,8 +56,16 @@
       <workItem from="1609603949405" duration="6146000" />
       <workItem from="1609743062805" duration="12736000" />
       <workItem from="1609774155448" duration="4091000" />
-      <workItem from="1610115915669" duration="20991000" />
+      <workItem from="1610115915669" duration="21316000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed Sticky Nav&#10;Improved responsive design &#10;-switched from grid to flexbox&#10;Should look ok in any res without media queries&#10;To be determined after adding content.&#10;&#10;TODO:&#10;Add about page&#10;Add content pages&#10;Fix color scheme&#10;Add search function (!Requires Content!)&#10;Probably some other stuff i don't remember too">
+      <created>1610199658211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610199658211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +85,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed Sticky Nav&#10;Improved responsive design &#10;-switched from grid to flexbox&#10;Should look ok in any res without media queries&#10;To be determined after adding content.&#10;&#10;TODO:&#10;Add about page&#10;Add content pages&#10;Fix color scheme&#10;Add search function (!Requires Content!)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Sticky Nav&#10;Improved responsive design &#10;-switched from grid to flexbox&#10;Should look ok in any res without media queries&#10;To be determined after adding content.&#10;&#10;TODO:&#10;Add about page&#10;Add content pages&#10;Fix color scheme&#10;Add search function (!Requires Content!)" />
+    <MESSAGE value="Fixed Sticky Nav&#10;Improved responsive design &#10;-switched from grid to flexbox&#10;Should look ok in any res without media queries&#10;To be determined after adding content.&#10;&#10;TODO:&#10;Add about page&#10;Add content pages&#10;Fix color scheme&#10;Add search function (!Requires Content!)&#10;Probably some other stuff i don't remember too" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Sticky Nav&#10;Improved responsive design &#10;-switched from grid to flexbox&#10;Should look ok in any res without media queries&#10;To be determined after adding content.&#10;&#10;TODO:&#10;Add about page&#10;Add content pages&#10;Fix color scheme&#10;Add search function (!Requires Content!)&#10;Probably some other stuff i don't remember too" />
   </component>
 </project>
