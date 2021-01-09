@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6ec1ba5-a69f-423b-b4e6-6501113be61b" name="Default Changelist" comment="" />
+    <list default="true" id="b6ec1ba5-a69f-423b-b4e6-6501113be61b" name="Default Changelist" comment="Fixed Sticky Nav&#10;Improved responsive design &#10;-switched from grid to flexbox&#10;Should look ok in any res without media queries&#10;To be determined after adding content.&#10;&#10;TODO:&#10;Add about page&#10;Add content pages&#10;Fix color scheme&#10;Add search function (!Requires Content!)">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/helpButton.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/homeButton.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/homeButton.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -52,10 +62,28 @@
       <workItem from="1609551572375" duration="29041000" />
       <workItem from="1609603949405" duration="6146000" />
       <workItem from="1609743062805" duration="12736000" />
+      <workItem from="1609774155448" duration="4091000" />
+      <workItem from="1610115915669" duration="20991000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed Sticky Nav&#10;Improved responsive design &#10;-switched from grid to flexbox&#10;Should look ok in any res without media queries&#10;To be determined after adding content.&#10;&#10;TODO:&#10;Add about page&#10;Add content pages&#10;Fix color scheme&#10;Add search function (!Requires Content!)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Sticky Nav&#10;Improved responsive design &#10;-switched from grid to flexbox&#10;Should look ok in any res without media queries&#10;To be determined after adding content.&#10;&#10;TODO:&#10;Add about page&#10;Add content pages&#10;Fix color scheme&#10;Add search function (!Requires Content!)" />
   </component>
 </project>
